@@ -1,0 +1,21 @@
+{
+  "name": "rxjs-website",
+  "version": "1.0.0",
+  "description": "A simple rxjs playground.",
+  "main": "index.js",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w ./index.ts",
+    "run:js": "node index.js",
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
